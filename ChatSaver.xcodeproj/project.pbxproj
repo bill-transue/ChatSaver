@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9AAE1BE166956720017A003 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9AAE1BD166956720017A003 /* Cocoa.framework */; };
+		A9AAE1C0166956720017A003 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9AAE1BF166956720017A003 /* AppleScriptObjC.framework */; };
+		A9AAE1CA166956720017A003 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9AAE1C8166956720017A003 /* InfoPlist.strings */; };
+		A9AAE1CC166956720017A003 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AAE1CB166956720017A003 /* main.m */; };
+		A9AAE1D0166956720017A003 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A9AAE1CE166956720017A003 /* Credits.rtf */; };
+		A9AAE1E01669598E0017A003 /* ChatSaver.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AAE1DF1669598E0017A003 /* ChatSaver.m */; };
+		A9C739F81678115D00BBEFB2 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C739F71678115D00BBEFB2 /* ScriptingBridge.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A9AAE1B9166956720017A003 /* ChatSaver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatSaver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9AAE1BD166956720017A003 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A9AAE1BF166956720017A003 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		A9AAE1C2166956720017A003 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A9AAE1C3166956720017A003 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A9AAE1C4166956720017A003 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A9AAE1C7166956720017A003 /* ChatSaver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChatSaver-Info.plist"; sourceTree = "<group>"; };
+		A9AAE1C9166956720017A003 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A9AAE1CB166956720017A003 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9AAE1CD166956720017A003 /* ChatSaver-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChatSaver-Prefix.pch"; sourceTree = "<group>"; };
+		A9AAE1CF166956720017A003 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A9AAE1DE1669598E0017A003 /* ChatSaver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatSaver.h; sourceTree = "<group>"; };
+		A9AAE1DF1669598E0017A003 /* ChatSaver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatSaver.m; sourceTree = "<group>"; };
+		A9C739F51678101000BBEFB2 /* messages.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = messages.h; sourceTree = "<group>"; };
+		A9C739F71678115D00BBEFB2 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9AAE1B6166956720017A003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C739F81678115D00BBEFB2 /* ScriptingBridge.framework in Frameworks */,
+				A9AAE1BE166956720017A003 /* Cocoa.framework in Frameworks */,
+				A9AAE1C0166956720017A003 /* AppleScriptObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9AAE1AE166956720017A003 = {
+			isa = PBXGroup;
+			children = (
+				A9C739F71678115D00BBEFB2 /* ScriptingBridge.framework */,
+				A9AAE1C5166956720017A003 /* ChatSaver */,
+				A9AAE1BC166956720017A003 /* Frameworks */,
+				A9AAE1BA166956720017A003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9AAE1BA166956720017A003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9AAE1B9166956720017A003 /* ChatSaver.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9AAE1BC166956720017A003 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9AAE1BD166956720017A003 /* Cocoa.framework */,
+				A9AAE1BF166956720017A003 /* AppleScriptObjC.framework */,
+				A9AAE1C1166956720017A003 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9AAE1C1166956720017A003 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9AAE1C2166956720017A003 /* AppKit.framework */,
+				A9AAE1C3166956720017A003 /* CoreData.framework */,
+				A9AAE1C4166956720017A003 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A9AAE1C5166956720017A003 /* ChatSaver */ = {
+			isa = PBXGroup;
+			children = (
+				A9AAE1DE1669598E0017A003 /* ChatSaver.h */,
+				A9AAE1DF1669598E0017A003 /* ChatSaver.m */,
+				A9AAE1C6166956720017A003 /* Supporting Files */,
+			);
+			path = ChatSaver;
+			sourceTree = "<group>";
+		};
+		A9AAE1C6166956720017A003 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9C739F51678101000BBEFB2 /* messages.h */,
+				A9AAE1C7166956720017A003 /* ChatSaver-Info.plist */,
+				A9AAE1C8166956720017A003 /* InfoPlist.strings */,
+				A9AAE1CB166956720017A003 /* main.m */,
+				A9AAE1CD166956720017A003 /* ChatSaver-Prefix.pch */,
+				A9AAE1CE166956720017A003 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9AAE1B8166956720017A003 /* ChatSaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9AAE1D8166956720017A003 /* Build configuration list for PBXNativeTarget "ChatSaver" */;
+			buildPhases = (
+				A9AAE1B5166956720017A003 /* Sources */,
+				A9AAE1B6166956720017A003 /* Frameworks */,
+				A9AAE1B7166956720017A003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChatSaver;
+			productName = ChatSaver;
+			productReference = A9AAE1B9166956720017A003 /* ChatSaver.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9AAE1B0166956720017A003 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ChatSaver;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Bill Transue";
+			};
+			buildConfigurationList = A9AAE1B3166956720017A003 /* Build configuration list for PBXProject "ChatSaver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A9AAE1AE166956720017A003;
+			productRefGroup = A9AAE1BA166956720017A003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9AAE1B8166956720017A003 /* ChatSaver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9AAE1B7166956720017A003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9AAE1CA166956720017A003 /* InfoPlist.strings in Resources */,
+				A9AAE1D0166956720017A003 /* Credits.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9AAE1B5166956720017A003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9AAE1CC166956720017A003 /* main.m in Sources */,
+				A9AAE1E01669598E0017A003 /* ChatSaver.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A9AAE1C8166956720017A003 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9AAE1C9166956720017A003 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A9AAE1CE166956720017A003 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9AAE1CF166956720017A003 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9AAE1D6166956720017A003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A9AAE1D7166956720017A003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A9AAE1D9166956720017A003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChatSaver/ChatSaver-Prefix.pch";
+				INFOPLIST_FILE = "ChatSaver/ChatSaver-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A9AAE1DA166956720017A003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChatSaver/ChatSaver-Prefix.pch";
+				INFOPLIST_FILE = "ChatSaver/ChatSaver-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9AAE1B3166956720017A003 /* Build configuration list for PBXProject "ChatSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9AAE1D6166956720017A003 /* Debug */,
+				A9AAE1D7166956720017A003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9AAE1D8166956720017A003 /* Build configuration list for PBXNativeTarget "ChatSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9AAE1D9166956720017A003 /* Debug */,
+				A9AAE1DA166956720017A003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9AAE1B0166956720017A003 /* Project object */;
+}
