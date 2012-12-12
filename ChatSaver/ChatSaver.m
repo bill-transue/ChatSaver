@@ -13,7 +13,7 @@
 
 messagesApplication *messages;
 
--(void)awakeFromNib
+-(id)init
 {
     messages = [SBApplication applicationWithBundleIdentifier:@"com.apple.Messages"];
     [[NSDistributedNotificationCenter defaultCenter] addObserver:self
@@ -25,6 +25,7 @@ messagesApplication *messages;
                                                         selector:@selector(screenSaverStopped:)
                                                             name:@"com.apple.screensaver.didstop"
                                                           object:nil];
+    return self;
 }
 
 -(void)dealloc
@@ -45,6 +46,5 @@ messagesApplication *messages;
     if ( [messages isRunning] ) {
         [messages logOut];
     }
-    
 }
 @end
