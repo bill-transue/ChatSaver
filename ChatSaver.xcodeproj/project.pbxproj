@@ -51,7 +51,6 @@
 		A9AAE1AE166956720017A003 = {
 			isa = PBXGroup;
 			children = (
-				A9C739F71678115D00BBEFB2 /* ScriptingBridge.framework */,
 				A9AAE1C5166956720017A003 /* ChatSaver */,
 				A9AAE1BC166956720017A003 /* Frameworks */,
 				A9AAE1BA166956720017A003 /* Products */,
@@ -69,8 +68,9 @@
 		A9AAE1BC166956720017A003 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A9AAE1BD166956720017A003 /* Cocoa.framework */,
 				A9AAE1BF166956720017A003 /* AppleScriptObjC.framework */,
+				A9AAE1BD166956720017A003 /* Cocoa.framework */,
+				A9C739F71678115D00BBEFB2 /* ScriptingBridge.framework */,
 				A9AAE1C1166956720017A003 /* Other Frameworks */,
 			);
 			name = Frameworks;
