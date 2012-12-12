@@ -37,14 +37,20 @@ messagesApplication *messages;
 -(void)screenSaverStarted:(NSNotification *)notification
 {
     if ( [messages isRunning] ) {
-        [messages logOut];
+        for (messagesService *service in [messages services])
+        {
+            [service logOut];
+        }
     }
 }
 
 -(void)screenSaverStopped:(NSNotification *)notification
 {
     if ( [messages isRunning] ) {
-        [messages logIn];
+        for (messagesService *service in [messages services])
+        {
+            [service logIn];
+        }
     }
 }
 

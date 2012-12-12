@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
     
     NSDate *now = [[NSDate alloc] init];
     NSTimer *timer = [[NSTimer alloc] initWithFireDate:now
-                                              interval:.01
+                                              interval:1
                                                 target:obj
                                               selector:@selector(startIt)
                                               userInfo:nil
