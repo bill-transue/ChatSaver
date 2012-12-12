@@ -15,7 +15,7 @@ messagesApplication *messages;
 
 -(id)init
 {
-    messages = [SBApplication applicationWithBundleIdentifier:@"com.apple.Messages"];
+    messages = [SBApplication applicationWithBundleIdentifier:@"com.apple.iChat"];
     [[NSDistributedNotificationCenter defaultCenter] addObserver:self
                                                         selector:@selector(screenSaverStarted:)
                                                             name:@"com.apple.screensaver.didstart"
@@ -37,14 +37,19 @@ messagesApplication *messages;
 -(void)screenSaverStarted:(NSNotification *)notification
 {
     if ( [messages isRunning] ) {
-        [messages logIn];
+        [messages logOut];
     }
 }
 
 -(void)screenSaverStopped:(NSNotification *)notification
 {
     if ( [messages isRunning] ) {
-        [messages logOut];
+        [messages logIn];
     }
+}
+
+-(void)startIt
+{
+    
 }
 @end
